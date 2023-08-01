@@ -1,0 +1,69 @@
+:root {
+  --azure: #0080ff;
+  --baby-blue: #89cff0;
+}
+
+.bg-azure {
+  background-color: var(--azure);
+}
+
+.bg-baby-blue {
+  background-color: var(--baby-blue);
+}
+
+.text-azure {
+  color: var(--azure);
+}
+
+.text-baby-blue {
+  color: var(--baby-blue);
+}
+
+.border-azure {
+  border-color: var(--azure);
+}
+
+.border-baby-blue {
+  border-color: var(--baby-blue);
+}
+
+.btn.bg-hover-azure:hover {
+  background-color: var(--azure);
+}
+
+.btn.border-hover-azure:hover {
+  border-color: var(--azure);
+}
+
+.btn.btn-outline-azure:hover {
+  color: #fff;
+  background-color: var(--azure);
+}
+
+.vh-10 {
+  min-height: 10vh;
+}
+
+.border-rounded-4 {
+  border-radius: 25px;
+}
+
+.border-rounded-top-right {
+  border-top-right-radius: 25px;
+}
+
+.border-rounded-bottom-left {
+  border-bottom-left-radius: 25px;
+}
+
+.text-big {
+  font-size: 4rem;
+}
+
+.text-oversize {
+  font-size: 8rem;
+}
+
+.circle {
+  border-radius: 100px;
+}

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous" />
+
+		<!-- Font Awesome Icons-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Sushi World</title>
+	</head>
+
+	<body class="h-100 w-100 d-flex flex-column g-1">
+		<!--  -->
+		<nav
+			class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-white">
+			<div class="container-fluid">
+				<a class="navbar-brand fw-bold" href="#">🍣 Sushi World 🌏</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#menuItems"
+					aria-controls="menuItems"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"
+						><i class="fas fa-align-justify"></i
+					></span>
+				</button>
+				<div
+					class="collapse navbar-collapse align-items-center gap-2"
+					id="menuItems">
+					<div class="mx-auto pt-lg-0 d-block d-lg-none d-xl-block">
+						<p class="fw-bold d-inline">
+							Deliver to:
+							<i class="fas fa-map-marker-alt text-azure"></i>
+							<span class="fw-normal">Current Location</span>
+							<span>Mohammadpur Bus Stand, Dhaka</span>
+						</p>
+					</div>
+					<div class="d-flex flex-row align-items-center px-3 gap-3">
+						<div
+							class="form-control d-flex flex-row my-auto align-items-center rounded-pill rounded-5 gap-1">
+							<i class="fas fa-search text-azure"></i>
+							<input
+								type="search"
+								class="form-control fw-bold border-0 focus-ring-dark"
+								placeholder="Search Food" />
+						</div>
+						<button
+							class="btn btn-outline-warning bg-hover-azure border-azure border-hover-azure text-azure d-flex align-items-center gap-1 shadow rounded-pill rounded-2 px-3"
+							type="submit">
+							<i class="fa fa-user"></i>
+							Login
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Landing -->
+		<section class="bg-azure">
+			<div class="container">
+				<div class="row flex-lg-row align-items-center g-5 my-5 gap-3">
+					<div class="col-lg-6 gap-4 d-flex flex-column">
+						<h1
+							class="fw-bold text-body-emphasis lh-1 mb-3 text-white fw-bold">
+							It's Sushi time!
+						</h1>
+						<h4 class="text-black-50">
+							Within a few clicks, find meals that are accesible
+							near you
+						</h4>
+						<div class="bg-white p-4 rounded-4 rounded">
+							<div
+								class="d-grid gap-2 d-md-flex justify-content-md-start">
+								<button
+									type="button"
+									class="btn bg-azure btn-lg px-4 me-md-2 text-white">
+									<i class="fas fa-motorcycle text-white"></i>
+									Delivery
+								</button>
+								<button
+									type="button"
+									class="btn btn-outline-azure btn-lg px-4 border-0">
+									<i class="fas fa-shopping-bag"></i>
+									Pickup
+								</button>
+							</div>
+							<hr />
+							<div class="d-flex gap-3">
+								<div
+									class="form-control d-flex flex-row my-auto align-items-center gap-1">
+									<i
+										class="fas fas fa-map-marker-alt text-azure"></i>
+									<input
+										type="search"
+										class="form-control border-0 focus-ring-dark"
+										placeholder="Enter Your Address" />
+								</div>
+								<button
+									class="btn bg-azure d-flex p-2 text-nowrap my-auto align-items-center gap-2 px-4 text-white fw-bold">
+									<i class="fas fa-search"></i>
+									Find Food
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<img
+							class="figure-img"
+							src="./images/sushi/sushi_sticks.png"
+							alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Discounts -->
+		<section class="my-5 pb-2">
+			<div class="container-fluid w-75">
+				<div class="row justify-content-around">
+					<div class="col-md-2 border-0 d-flex flex-column gap-4">
+						<div class="row">
+							<div class="card border-0">
+								<img
+									src="./images/sushi/roll_newyork.jpg"
+									class="card-img border-rounded-4" />
+								<div
+									class="text-white fw-bold position-absolute bottom-0 bg-azure p-2 border-rounded-bottom-left border-rounded-top-right d-flex flex-row my-0 align-items-center gap-2">
+									<span class="fs-1">15</span>
+									<div class="d-flex flex-column text-center">
+										<span>%</span>
+										<span>Off</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row flex-column">
+							<h3 class="fs-4">New York Roll</h3>
+							<span
+								class="badge bg-azure w-75 fw-bold text-start fs-5 p-2">
+								6 Days Remaining
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 border-0 d-flex flex-column gap-4">
+						<div class="row">
+							<div class="card border-0">
+								<img
+									src="./images/sushi/sashimi.jpg"
+									class="card-img border-rounded-4" />
+								<div
+									class="text-white fw-bold position-absolute bottom-0 bg-azure p-2 border-rounded-bottom-left border-rounded-top-right d-flex flex-row my-0 align-items-center gap-2">
+									<span class="fs-1">10</span>
+									<div class="d-flex flex-column text-center">
+										<span>%</span>
+										<span>Off</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row flex-column">
+							<h3 class="fs-4">Sashimi</h3>
+							<span
+								class="badge bg-azure w-75 fw-bold text-start fs-5 p-2">
+								6 Days Remaining
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 border-0 d-flex flex-column gap-4">
+						<div class="row">
+							<div class="card border-0">
+								<img
+									src="./images/sushi/roll_tuna.jpg"
+									class="card-img border-rounded-4" />
+								<div
+									class="text-white fw-bold position-absolute bottom-0 bg-azure p-2 border-rounded-bottom-left border-rounded-top-right d-flex flex-row my-0 align-items-center gap-2">
+									<span class="fs-1">25</span>
+									<div class="d-flex flex-column text-center">
+										<span>%</span>
+										<span>Off</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row flex-column">
+							<h3 class="fs-4">Tuna Roll</h3>
+							<span
+								class="badge bg-azure w-75 fw-bold text-start fs-5 p-2">
+								7 Days Remaining
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 border-0 d-flex flex-column gap-4">
+						<div class="row">
+							<div class="card border-0">
+								<img
+									src="./images/sushi/roll_philadelphia.jpg"
+									class="card-img border-rounded-4" />
+								<div
+									class="text-white fw-bold position-absolute bottom-0 bg-azure p-2 border-rounded-bottom-left border-rounded-top-right d-flex flex-row my-0 align-items-center gap-2">
+									<span class="fs-1">20</span>
+									<div class="d-flex flex-column text-center">
+										<span>%</span>
+										<span>Off</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row flex-column">
+							<h3 class="fs-4">Philadelphia Roll</h3>
+							<span
+								class="badge bg-azure w-75 fw-bold text-start fs-5 p-2">
+								8 Days Remaining
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- How does it work -->
+
+		<section class="my-5">
+			<div class="container gap-5 d-flex flex-column">
+				<div class="row d-flex justify-content-center text-center">
+					<h2 class="fw-bold text-azure">How does it work</h2>
+				</div>
+				<div class="container">
+					<div class="row d-flex justify-content-between">
+						<div
+							class="col-2 d-flex flex-column align-items-center gap-5">
+							<i
+								class="fas fa-map-marker-alt text-oversize text-azure"></i>
+							<div class="row text-center">
+								<h4 class="fw-bold">Select location</h4>
+								<p>
+									Choose the location where your food will be
+									delivered
+								</p>
+							</div>
+						</div>
+						<div
+							class="col-2 d-flex flex-column align-items-center gap-5">
+							<i class="fas fa-list text-oversize text-azure"></i>
+							<div class="row text-center">
+								<h4 class="fw-bold">Choose order</h4>
+								<p>
+									Check over hundred of menus to pick your
+									favorite food
+								</p>
+							</div>
+						</div>
+						<div
+							class="col-2 d-flex flex-column align-items-center gap-5">
+							<i
+								class="far fa-money-bill-alt text-oversize text-azure"></i>
+							<div class="row text-center">
+								<h4 class="fw-bold">Pay advanced</h4>
+								<p>
+									It's quick, safe, and simple. Select several
+									methods of payment
+								</p>
+							</div>
+						</div>
+						<div
+							class="col-2 d-flex flex-column align-items-center gap-5">
+							<i
+								class="far fa-smile-beam text-oversize text-azure"></i>
+							<div class="row text-center">
+								<h4 class="fw-bold">Enjoy meals</h4>
+								<p>
+									Food is made and delivered directly to your
+									home
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Popular items -->
+		<section class="p-2 m-5">
+			<div class="row gap-1 justify-content-center">
+				<div class="col-md-auto d-flex align-items-center text-azure">
+					<i class="fas fa-chevron-circle-left text-big"></i>
+				</div>
+				<div class="col-md-auto">
+					<div class="row">
+						<div class="card border-0">
+							<img
+								src="./images/sushi/roll_chop.jpg"
+								class="card-img border-rounded-4" />
+						</div>
+					</div>
+					<div class="row flex-column my-1">
+						<p class="fs-5 fw-bold">Roll Chop</p>
+						<p class="fs-5 text-azure">
+							<i class="fas fa-map-marker-alt"></i> Sushi Top
+							Store
+						</p>
+						<p class="fw-bold fs-5">$3.88</p>
+					</div>
+					<div class="row">
+						<button
+							class="btn btn-lg bg-azure text-white fs-6 p-3 rounded-4 fw-bold">
+							Order Now
+						</button>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<div class="row">
+						<div class="card border-0">
+							<img
+								src="./images/sushi/roll_fresh.jpg"
+								class="card-img border-rounded-4" />
+						</div>
+					</div>
+					<div class="row flex-column my-1">
+						<p class="fs-5 fw-bold">Roll Fresh</p>
+						<p class="fs-5 text-azure">
+							<i class="fas fa-map-marker-alt"></i> Sushi Top
+							Store
+						</p>
+						<p class="fw-bold fs-5">$4.00</p>
+					</div>
+					<div class="row">
+						<button
+							class="btn btn-lg bg-azure text-white fs-6 p-3 rounded-4 fw-bold">
+							Order Now
+						</button>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<div class="row">
+						<div class="card border-0">
+							<img
+								src="./images/sushi/poke_salmon.jpg"
+								class="card-img border-rounded-4" />
+						</div>
+					</div>
+					<div class="row flex-column my-1">
+						<p class="fs-5 fw-bold">Poke Salmon</p>
+						<p class="fs-5 text-azure">
+							<i class="fas fa-map-marker-alt"></i> Sushi Top
+							Store
+						</p>
+						<p class="fw-bold fs-5">$10.55</p>
+					</div>
+					<div class="row">
+						<button
+							class="btn btn-lg bg-azure text-white fs-6 p-3 rounded-4 fw-bold">
+							Order Now
+						</button>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<div class="row">
+						<div class="card border-0">
+							<img
+								src="./images/sushi/roll_spring.jpg"
+								class="card-img border-rounded-4" />
+						</div>
+					</div>
+					<div class="row flex-column my-1">
+						<p class="fs-5 fw-bold">Roll Spring</p>
+						<p class="fs-5 text-azure">
+							<i class="fas fa-map-marker-alt"></i> Sushi Top
+							Store
+						</p>
+						<p class="fw-bold fs-5">$3.00</p>
+					</div>
+					<div class="row">
+						<button
+							class="btn btn-lg bg-azure text-white fs-6 p-3 rounded-4 fw-bold">
+							Order Now
+						</button>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<div class="row">
+						<div class="card border-0">
+							<img
+								src="./images/sushi/roll_chimi.jpg"
+								class="card-img border-rounded-4" />
+						</div>
+					</div>
+					<div class="row flex-column my-1">
+						<p class="fs-5 fw-bold">Roll Chimi</p>
+						<p class="fs-5 text-azure">
+							<i class="fas fa-map-marker-alt"></i> Sushi Top
+							Store
+						</p>
+						<p class="fw-bold fs-5">$2.50</p>
+					</div>
+					<div class="row">
+						<button
+							class="btn btn-lg bg-azure text-white fs-6 p-3 rounded-4 fw-bold">
+							Order Now
+						</button>
+					</div>
+				</div>
+				<div class="col-md-auto d-flex align-items-center text-azure">
+					<i class="fas fa-chevron-circle-right text-big"></i>
+				</div>
+			</div>
+		</section>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"></script>
+	</body>
+</html>
